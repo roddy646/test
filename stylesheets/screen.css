@@ -1,0 +1,635 @@
+@charset "UTF-8";
+/* Welcome to Compass.
+ * In this file you should write your main styles. (or centralize your imports)
+ * Import this file using the following HTML or equivalent:
+ * <link href="/stylesheets/screen.css" media="screen, projection" rel="stylesheet" type="text/css" /> */
+/* line 5, C:/Ruby22-x64/lib/ruby/gems/2.2.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font: inherit;
+  font-size: 100%;
+  vertical-align: baseline;
+}
+
+/* line 22, C:/Ruby22-x64/lib/ruby/gems/2.2.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+html {
+  line-height: 1;
+}
+
+/* line 24, C:/Ruby22-x64/lib/ruby/gems/2.2.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+ol, ul {
+  list-style: none;
+}
+
+/* line 26, C:/Ruby22-x64/lib/ruby/gems/2.2.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+/* line 28, C:/Ruby22-x64/lib/ruby/gems/2.2.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+caption, th, td {
+  text-align: left;
+  font-weight: normal;
+  vertical-align: middle;
+}
+
+/* line 30, C:/Ruby22-x64/lib/ruby/gems/2.2.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+q, blockquote {
+  quotes: none;
+}
+/* line 103, C:/Ruby22-x64/lib/ruby/gems/2.2.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+q:before, q:after, blockquote:before, blockquote:after {
+  content: "";
+  content: none;
+}
+
+/* line 32, C:/Ruby22-x64/lib/ruby/gems/2.2.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+a img {
+  border: none;
+}
+
+/* line 116, C:/Ruby22-x64/lib/ruby/gems/2.2.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+article, aside, details, figcaption, figure, footer, header, hgroup, main, menu, nav, section, summary {
+  display: block;
+}
+
+/* line 9, ../sass/screen.scss */
+.header {
+  width: 100%;
+  height: 75px;
+  background-color: #fafdff;
+  color: #646464;
+  box-shadow: 0 8px 5px -5px #dcdcdc;
+}
+/* line 15, ../sass/screen.scss */
+.header .in-header {
+  width: 1000px;
+  margin: 0 auto;
+  position: relative;
+}
+/* line 20, ../sass/screen.scss */
+.header h1 {
+  font-size: 36px;
+  text-align: center;
+  line-height: 2;
+  font-family: proximanova-light;
+}
+/* line 25, ../sass/screen.scss */
+.header h1 span {
+  border: 2px solid #00b3ff;
+  padding: 8px;
+  border-radius: 6px;
+}
+/* line 31, ../sass/screen.scss */
+.header img {
+  align: left;
+  float: left;
+  margin-top: 15px;
+  height: 45px;
+}
+/* line 38, ../sass/screen.scss */
+.header .triangle {
+  color: #fafdff;
+  position: absolute;
+  left: 180px;
+  top: 70px;
+  display: inline-block;
+  transform: scaleX(2.5);
+  /* ╨Э╨╡ ╨╖╨░╨▒╤Л╨▓╨░╨╡╨╝ ╨┐╤А╨╛ ╨┐╤А╨╡╤Д╨╕╨║╤Б╤Л */
+  text-shadow: 0 4px 4px #dcdcdc;
+  font-size: 22px;
+}
+
+/* line 96, ../sass/screen.scss */
+.content {
+  width: 1000px;
+  margin: 0 auto;
+  height: 500px;
+}
+/* line 100, ../sass/screen.scss */
+.content .left {
+  width: 38%;
+  float: left;
+  margin-top: 60px;
+}
+/* line 104, ../sass/screen.scss */
+.content .left .step1 {
+  width: 100%;
+  height: 70px;
+  border: 1px solid #c0c3c9;
+  font-family: proximanova-regular;
+  font-size: 18px;
+  position: relative;
+  margin-bottom: 20px;
+}
+/* line 108, ../sass/screen.scss */
+.content .left .step2 {
+  width: 100%;
+  height: 70px;
+  border: 1px solid #c0c3c9;
+  font-family: proximanova-regular;
+  font-size: 18px;
+  position: relative;
+  margin-bottom: 20px;
+}
+/* line 112, ../sass/screen.scss */
+.content .left .step3 {
+  width: 100%;
+  height: 70px;
+  border: 1px solid #c0c3c9;
+  font-family: proximanova-regular;
+  font-size: 18px;
+  position: relative;
+}
+/* line 114, ../sass/screen.scss */
+.content .left .step3 .step {
+  font-family: proximanova-regular;
+}
+/* line 118, ../sass/screen.scss */
+.content .left .step {
+  font-family: proximanova-bold;
+  margin-right: 15px;
+}
+/* line 122, ../sass/screen.scss */
+.content .left img {
+  position: absolute;
+  top: 20px;
+  left: 20px;
+}
+/* line 127, ../sass/screen.scss */
+.content .left .text {
+  position: absolute;
+  top: 25px;
+  left: 65px;
+}
+/* line 131, ../sass/screen.scss */
+.content .left .text a {
+  color: #00b3ff;
+  margin-left: 5px;
+  text-decoration: none;
+  border-bottom: 1px solid #d3ebff;
+}
+/* line 135, ../sass/screen.scss */
+.content .left .bold {
+  font-family: proximanova-bold;
+}
+/* line 139, ../sass/screen.scss */
+.content .left .button {
+  text-decoration: none;
+  width: 100%;
+  height: 75px;
+  background: #00b3ff;
+  color: white;
+  display: block;
+  position: relative;
+  font-family: proximanova-semibold;
+  font-size: 20px;
+  text-align: center;
+  top: 40px;
+  border-radius: 5px;
+}
+/* line 142, ../sass/screen.scss */
+.content .left .button img {
+  position: relative;
+  z-index: 1;
+  top: 15px;
+}
+/* line 146, ../sass/screen.scss */
+.content .left .or-click {
+  display: inline-block;
+  position: relative;
+  top: 60px;
+  left: 90px;
+  color: #00b3ff;
+  margin-left: 5px;
+  text-decoration: none;
+  border-bottom: 1px solid #d3ebff;
+  font-family: proximanova-regular;
+}
+/* line 151, ../sass/screen.scss */
+.content .right {
+  width: 62%;
+  float: right;
+  margin-top: 10px;
+}
+/* line 155, ../sass/screen.scss */
+.content .right .downloads-this-week {
+  height: 65px;
+  width: 205px;
+  background-image: url(../img/3.png), url(../img/4.png);
+  background-repeat: no-repeat;
+  background-position: left, right;
+  text-align: center;
+  float: left;
+  margin: 15px 70px 0 100px;
+}
+/* line 164, ../sass/screen.scss */
+.content .right .downloads-this-week p {
+  color: #c0c3c9;
+  font-size: 15px;
+}
+/* line 168, ../sass/screen.scss */
+.content .right .downloads-this-week .counter {
+  font-size: 45px;
+  color: #00b3ff;
+  position: relative;
+}
+/* line 172, ../sass/screen.scss */
+.content .right .downloads-this-week .counter span {
+  color: #c0c3c9;
+  font-size: 20px;
+  position: absolute;
+}
+/* line 179, ../sass/screen.scss */
+.content .right .patings {
+  float: left;
+  height: 65px;
+  margin-top: 15px;
+}
+
+/* line 189, ../sass/screen.scss */
+.main-logos {
+  width: 100%;
+  height: 95px;
+  border-top: 1px solid #f1f7fa;
+}
+/* line 193, ../sass/screen.scss */
+.main-logos .logos {
+  width: 1000px;
+  margin: 0 auto;
+}
+/* line 196, ../sass/screen.scss */
+.main-logos .logos .cnn {
+  margin: 35px 0 0 135px;
+}
+/* line 199, ../sass/screen.scss */
+.main-logos .logos .dezzain {
+  margin: 0 75px 0 100px;
+}
+/* line 202, ../sass/screen.scss */
+.main-logos .logos .forbes {
+  margin: 0 85px 0 0;
+}
+
+/* line 207, ../sass/screen.scss */
+.cleaner {
+  width: 100%;
+  height: 525px;
+  background: #f3f6f8;
+}
+/* line 211, ../sass/screen.scss */
+.cleaner h2 {
+  font-family: proximanova-regular;
+  font-size: 20px;
+  text-align: center;
+  padding-top: 40px;
+}
+/* line 216, ../sass/screen.scss */
+.cleaner h2 span {
+  color: #00b3ff;
+}
+/* line 220, ../sass/screen.scss */
+.cleaner .hexagons {
+  width: 1000px;
+  margin: 0 auto;
+}
+/* line 223, ../sass/screen.scss */
+.cleaner .hexagons .first-row-hex {
+  position: relative;
+  top: 40px;
+}
+/* line 227, ../sass/screen.scss */
+.cleaner .hexagons .second-row-hex {
+  display: inline-block;
+  position: relative;
+  left: 55px;
+  top: 30px;
+}
+/* line 233, ../sass/screen.scss */
+.cleaner .hexagons .third-row-hex {
+  display: inline-block;
+  position: relative;
+  top: 18px;
+}
+/* line 238, ../sass/screen.scss */
+.cleaner .hexagons .rows {
+  width: 700px;
+  float: left;
+}
+/* line 241, ../sass/screen.scss */
+.cleaner .hexagons .rows a {
+  width: 95px;
+  height: 110px;
+  background-image: url(../img/14.png);
+  background-repeat: no-repeat;
+  display: block;
+  position: relative;
+  float: left;
+  margin-right: 15px;
+}
+/* line 250, ../sass/screen.scss */
+.cleaner .hexagons .rows a:hover {
+  background-image: url(../img/bg-hover.png);
+}
+/* line 254, ../sass/screen.scss */
+.cleaner .hexagons .rows a .link1 {
+  position: absolute;
+  top: 30px;
+  left: 23px;
+}
+/* line 259, ../sass/screen.scss */
+.cleaner .hexagons .rows a .link2 {
+  position: absolute;
+  top: 30px;
+  left: 25px;
+}
+/* line 264, ../sass/screen.scss */
+.cleaner .hexagons .rows a .link11 {
+  top: 35px;
+  left: 25px;
+  position: absolute;
+}
+/* line 269, ../sass/screen.scss */
+.cleaner .hexagons .rows a .link12 {
+  top: 26px;
+  left: 26px;
+  position: absolute;
+}
+/* line 274, ../sass/screen.scss */
+.cleaner .hexagons .rows a .link16 {
+  position: absolute;
+  top: 30px;
+  left: 27px;
+}
+/* line 281, ../sass/screen.scss */
+.cleaner .memory-cleaner {
+  width: 280px;
+  border: 1px solid #dbdbdb;
+  float: right;
+  margin-top: 40px;
+  border-radius: 5px;
+}
+/* line 287, ../sass/screen.scss */
+.cleaner .memory-cleaner .memory-image {
+  background: #f8fafb;
+  width: 100%;
+  height: 140px;
+  border-bottom: 1px solid #dbdbdb;
+  padding-bottom: 10px;
+}
+/* line 293, ../sass/screen.scss */
+.cleaner .memory-cleaner .memory-image .h5 {
+  font-family: proximanova-regular;
+  font-size: 16px;
+  text-align: center;
+  text-transform: uppercase;
+}
+/* line 299, ../sass/screen.scss */
+.cleaner .memory-cleaner .memory-image .image {
+  display: block;
+  margin: 0 auto;
+  padding: 20px 0 15px 0;
+}
+/* line 307, ../sass/screen.scss */
+.cleaner .memory-cleaner .memory-download {
+  background: white;
+  padding-bottom: 20px;
+  height: 220px;
+}
+/* line 311, ../sass/screen.scss */
+.cleaner .memory-cleaner .memory-download .txt {
+  height: 160px;
+  padding-bottom: 10px;
+}
+/* line 315, ../sass/screen.scss */
+.cleaner .memory-cleaner .memory-download .txt .p {
+  color: #737373;
+  font-family: proximanova-regular;
+  font-size: 14px;
+  line-height: 2;
+  padding: 15px 25px;
+}
+/* line 322, ../sass/screen.scss */
+.cleaner .memory-cleaner .memory-download a {
+  text-decoration: none;
+  color: #00b3ff;
+  width: 165px;
+  height: 45px;
+  border: 1px solid #00b3ff;
+  border-radius: 5px;
+  display: block;
+  text-align: center;
+  line-height: 2.8;
+  font-family: proximanova-semibold;
+  font-size: 16px;
+  margin: 0 auto;
+}
+
+/* line 342, ../sass/screen.scss */
+.checkout {
+  height: 390px;
+  margin: 0 auto;
+  border-bottom: 1px solid #dddddd;
+}
+
+/* line 348, ../sass/screen.scss */
+h3 {
+  text-align: center;
+  font-family: proximanova-regular;
+  font-size: 24px;
+  color: #646464;
+  margin: 40px;
+}
+
+/* line 355, ../sass/screen.scss */
+.tables {
+  width: 1000px;
+  margin: 0 auto;
+}
+
+/* line 359, ../sass/screen.scss */
+.first-table {
+  border: 1px solid #dddddd;
+  width: 310px;
+  font-family: proximanova-regular;
+  color: #737373;
+  float: left;
+  margin-right: 30px;
+}
+/* line 366, ../sass/screen.scss */
+.first-table:last-child {
+  margin-right: 0;
+}
+/* line 369, ../sass/screen.scss */
+.first-table p {
+  margin-left: 25px;
+  line-height: 1.4;
+}
+/* line 373, ../sass/screen.scss */
+.first-table img {
+  margin: 20px 0 10px 25px;
+}
+/* line 376, ../sass/screen.scss */
+.first-table .stars {
+  height: 150px;
+  border-bottom: 1px solid  #dddddd;
+}
+/* line 380, ../sass/screen.scss */
+.first-table .michael {
+  height: 90px;
+}
+/* line 382, ../sass/screen.scss */
+.first-table .michael span {
+  display: block;
+  color: black;
+  font-weight: bold;
+  margin: 20px 0 10px 25px;
+}
+
+/* line 392, ../sass/screen.scss */
+.footer1 {
+  width: 1000px;
+  height: 215px;
+  margin: 0 auto;
+}
+/* line 396, ../sass/screen.scss */
+.footer1 .download-btn {
+  width: 38%;
+  float: left;
+}
+/* line 399, ../sass/screen.scss */
+.footer1 .download-btn .button2 {
+  text-decoration: none;
+  width: 100%;
+  height: 75px;
+  background: #00b3ff;
+  color: white;
+  display: block;
+  position: relative;
+  font-family: proximanova-semibold;
+  font-size: 20px;
+  text-align: center;
+  top: 40px;
+  border-radius: 5px;
+}
+/* line 401, ../sass/screen.scss */
+.footer1 .download-btn .button2 img {
+  position: relative;
+  z-index: 1;
+  top: 15px;
+}
+/* line 405, ../sass/screen.scss */
+.footer1 .download-btn .or-click2 {
+  display: inline-block;
+  position: relative;
+  top: 60px;
+  left: 90px;
+  color: #00b3ff;
+  margin-left: 5px;
+  text-decoration: none;
+  border-bottom: 1px solid #d3ebff;
+  font-family: proximanova-regular;
+}
+/* line 409, ../sass/screen.scss */
+.footer1 .footer-img {
+  float: left;
+  width: 31%;
+  margin-top: 35px;
+  text-align: center;
+}
+
+/* line 416, ../sass/screen.scss */
+.trusted-by-millions {
+  margin-top: 35px;
+  width: 31%;
+  float: right;
+}
+/* line 420, ../sass/screen.scss */
+.trusted-by-millions div {
+  width: 200px;
+  height: 100px;
+  margin: 0 auto;
+  background-image: url(../img/18.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  text-align: center;
+  font-size: 20px;
+  color: #737373;
+}
+/* line 430, ../sass/screen.scss */
+.trusted-by-millions div h1 {
+  font-family: proximanova-bold;
+}
+/* line 434, ../sass/screen.scss */
+.trusted-by-millions div p {
+  font-family: proximanova-regular;
+}
+/* line 437, ../sass/screen.scss */
+.trusted-by-millions div h2 {
+  font-family: proximanova-regular;
+  font-size: 30px;
+  color: #00b3ff;
+}
+
+/* line 444, ../sass/screen.scss */
+.footer2 {
+  border-top: 1px solid #dddddd;
+  border-bottom: 1px solid #dddddd;
+  background: #fafdff;
+  height: 50px;
+  width: 100%;
+  float: left;
+  overflow: hidden;
+  position: relative;
+}
+/* line 453, ../sass/screen.scss */
+.footer2 ul {
+  text-align: center;
+  clear: left;
+  float: left;
+  position: relative;
+  left: 50%;
+  top: 15px;
+}
+/* line 460, ../sass/screen.scss */
+.footer2 ul li {
+  font-family: proximanova-regular;
+  color: #434343;
+  display: block;
+  float: left;
+  position: relative;
+  right: 50%;
+  padding-right: 15px;
+}
+
+/* line 472, ../sass/screen.scss */
+.footer3 {
+  width: 100%;
+  background-color: #f4fafd;
+  text-align: center;
+  color: #9ba1a4;
+  font-family: proximanova-regular;
+  font-size: 13px;
+  line-height: 1.5;
+  display: inline-block;
+  padding: 10px 0 10px 0;
+}
+/* line 483, ../sass/screen.scss */
+.footer3 p a {
+  color: #00b3ff;
+}

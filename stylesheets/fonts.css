@@ -1,0 +1,19 @@
+@font-face{
+	font-family: Proximanova-light;
+	src: url(../fonts/proximanova-light.otf);
+}
+
+@font-face{
+	font-family: Proximanova-bold;
+	src: url(../fonts/proximanova-bold.otf);
+}
+
+@font-face{
+	font-family: Proximanova-regular;
+	src: url(../fonts/proximanova-regular.otf);
+}
+
+@font-face{
+	font-family: Proximanova-semibold;
+	src: url(../fonts/proximanova-semibold.otf);
+}
